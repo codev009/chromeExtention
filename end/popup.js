@@ -19,7 +19,7 @@ chrome.storage.sync.get(["name"], (res) => {
   nameElement.textContent = `Your name is: ${name}`
 })
 
-const startBtn = document.getElementById("start")
+const startBtn = document.getElementById("timer-extension")
 const stopBtn = document.getElementById("stop")
 const resetBtn = document.getElementById("reset")
 
